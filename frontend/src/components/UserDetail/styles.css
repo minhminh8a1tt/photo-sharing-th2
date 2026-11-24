@@ -1,0 +1,25 @@
+.user-detail h2 {
+  margin: 0 0 20px;
+  color: #1976d2;
+}
+
+.user-detail h4 {
+  margin: 14px 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+}
+
+.user-detail a {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 16px;
+  background-color: #1976d2;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.user-detail a:hover {
+  background-color: #1565c0;
+}

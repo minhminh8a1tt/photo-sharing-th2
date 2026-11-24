@@ -1,0 +1,63 @@
+.user-list nav {
+  padding: 0;
+  margin-top: 12px;
+}
+
+.user-list li {
+  list-style: none;
+}
+
+.user-list a {
+  display: block;
+  padding: 10px 12px;
+  color: #1976d2;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.user-list a:hover {
+  background-color: #e3f2fd;
+}
+
+.user-list a:focus-visible {
+  outline: 2px solid #1976d2;
+}
+
+.user-list .user-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0;
+}
+
+.user-list .user-name {
+  flex: 1;
+  min-width: 0;
+}
+
+.user-list .count-bubble {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 6px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.user-list .photo-count {
+  background-color: #2e7d32;
+}
+
+.user-list .comment-count {
+  background-color: #c62828;
+}
+
+.user-list .comment-count:hover {
+  background-color: #a51f1f;
+}

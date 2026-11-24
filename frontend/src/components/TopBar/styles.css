@@ -1,0 +1,13 @@
+.topbar-appBar.MuiAppBar-root {
+  min-height: 64px;
+  justify-content: center;
+  background-color: #1976d2;
+}
+
+.topbar-appBar .MuiToolbar-root {
+  gap: 16px;
+}
+
+.topbar-appBar .MuiTypography-root {
+  font-size: 18px;
+}

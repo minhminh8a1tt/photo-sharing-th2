@@ -1,0 +1,36 @@
+.user-comments {
+  padding: 16px;
+}
+
+.user-comments .user-comment-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #333;
+  text-decoration: none;
+}
+
+.user-comments .user-comment-card:hover {
+  background-color: #f5f8fc;
+}
+
+.user-comments .user-comment-card img {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.user-comments .user-comment-card p {
+  margin: 0 0 8px;
+  overflow-wrap: anywhere;
+}
+
+.user-comments .user-comment-card small {
+  color: #666;
+}
